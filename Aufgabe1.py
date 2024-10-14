@@ -17,6 +17,6 @@ if noten_dict[x] > 0:
     note = noten_dict.get(x)
 
 else:
-    print(f"Du wurdest in {x} nicht benotet!")
+    print(f"Du wurdest in {x} nit benotet!")
 
 print(f"Du hast in Mateh eine: {note}")
