@@ -19,5 +19,6 @@ while True:
     if searched in mitarbeiter_dict:
         position = mitarbeiter_dict.get(searched)
         print(f"Der Mitarbeiter {searched} hat die Position: {position}")
+        continue
     else:
         print("Der Mitarbeiter Arbeitet hier nicht.")
