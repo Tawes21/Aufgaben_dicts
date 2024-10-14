@@ -13,9 +13,9 @@ mitarbeiter_dict = {
     "Judas": "Verräter",
 }
 
-searched = input("Was möchtest du wissen: Franz, Max, Dieter, John oder Judas? \n")
 
 while True:
+    searched = input("Was möchtest du wissen: Franz, Max, Dieter, John oder Judas? \n")
     if searched in mitarbeiter_dict:
         position = mitarbeiter_dict.get(searched)
         print(f"Der Mitarbeiter {searched} hat die Position: {position}")
